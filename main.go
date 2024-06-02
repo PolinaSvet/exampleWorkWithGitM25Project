@@ -4,11 +4,11 @@ import (
     "log"
 )
 func main() {
-    n := 0
+    n := ""
     fmt.Print("Enter an integer: ")
     _, err := fmt.Scan(&n)
     if err != nil {
         log.Fatal(err)
     }
-    fmt.Printf("You have entered a number: %d\n", n)
+    fmt.Printf("You have entered a number: %s\n", n)
 }
